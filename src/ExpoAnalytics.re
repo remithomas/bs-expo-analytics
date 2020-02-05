@@ -30,8 +30,8 @@ type analytics;
 
 [@bs.send] external event: (analytics, event) => Js.Promise.t(unit) = "event";
 
-[@bs.send] external addCustomDimension: (analytics, int, string) => unit = "";
-[@bs.send] external removeCustomDimension: (analytics, int) => unit = "";
+[@bs.send] external addCustomDimension: (analytics, int, string) => unit = "addCustomDimension";
+[@bs.send] external removeCustomDimension: (analytics, int) => unit = "removeCustomDimension";
 
-[@bs.send] external addCustomMetric: (analytics, int, int) => unit = "";
-[@bs.send] external removeCustomMetric: (analytics, int) => unit = "";
+[@bs.send] external addCustomMetric: (analytics, int, int) => unit = "addCustomMetric";
+[@bs.send] external removeCustomMetric: (analytics, int) => unit = "removeCustomMetric";
