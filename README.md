@@ -1,6 +1,6 @@
-# bs-expo-analytics
+# bs-expo-analytics [![Build Status](https://travis-ci.org/remithomas/bs-expo-analytics.svg?branch=master)](https://travis-ci.org/remithomas/bs-expo-analytics)
 
-> Bucklescript bindings for [expo-analytics](https://github.com/ryanvanderpol/expo-analytics) [![Build Status](https://travis-ci.org/remithomas/bs-expo-analytics.svg?branch=master)](https://travis-ci.org/remithomas/bs-expo-analytics)
+> Bucklescript bindings for [expo-analytics](https://github.com/ryanvanderpol/expo-analytics)
 
 # Build
 ```
