@@ -1,0 +1,26 @@
+{
+    "name" : "bs-expo-analytics",
+    "refmt": 3,
+    "bs-dependencies": [],
+    "bs-dev-dependencies": [],
+    "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+    "suffix": ".bs.js",
+    "sources": [
+        {
+            "dir" : "src",
+            "subdirs": true
+        },
+        {
+          "dir": "examples",
+          "subdirs": true,
+          "type": "dev"
+        }
+    ],
+    "package-specs": [
+      {
+        "module": "commonjs",
+        "in-source": true
+      }
+    ],
+    "namespace": "expo-analytics"
+}
