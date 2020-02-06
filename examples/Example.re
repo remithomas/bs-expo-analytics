@@ -1,10 +1,10 @@
-let analytics = ExpoAnalytics.createAnalytics(~trackingId="UA-xxxx", ());
+let analytics = Analytics.createAnalytics(~trackingId="UA-xxxx", ());
 
-let pageHit = ExpoAnalytics.createPageHit("Home");
-let screenHit = ExpoAnalytics.createScreenHit("Home");
+let pageHit = Analytics.createPageHit("Home");
+let screenHit = Analytics.createScreenHit("Home");
 
-let event = ExpoAnalytics.createEvent(~category="testy", ~action="you", ~value=123, ());
+let event = Analytics.createEvent(~category="testy", ~action="you", ~value=123, ());
 
-ExpoAnalytics.event(analytics, event);
-ExpoAnalytics.hitPage(analytics, pageHit);
-ExpoAnalytics.hitScreen(analytics, screenHit);
+Analytics.event(analytics, event);
+Analytics.hitPage(analytics, pageHit);
+Analytics.hitScreen(analytics, screenHit);
